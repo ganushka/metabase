@@ -48,7 +48,7 @@ const QueryDownloadWidget = ({
       {result.data != null && result.data.rows_truncated != null && (
         <Box px={1}>
           <p>{t`Your answer has a large number of rows so it could take a while to download.`}</p>
-          <p>{t`The maximum download size is 1 million rows.`}</p>
+          <p>{t`The maximum download size is 1000 rows.`}</p>
         </Box>
       )}
       <Box>
